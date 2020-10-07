@@ -47,7 +47,7 @@ export default function App() {
 
   const submitHandler = (todo) => {
     if (todo.length > 3) {
-      setData((currentState) => [{ todo, id: Date.now().toString() }, ...currentState])
+      setData((currentState) => [...currentState, { todo, id: Date.now().toString() }])
     }
     else {
       console.log('Add some todo')
