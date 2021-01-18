@@ -22,6 +22,9 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "Basic TODO app that uses Device's Storage"
+    "description": "Basic TODO app that uses Device's Storage",
+    "android": {
+      "package": "com.dishanktak.Realtodoapp"
+    }
   }
 }
